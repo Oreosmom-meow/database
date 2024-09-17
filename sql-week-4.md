@@ -1,4 +1,5 @@
-#Week 4 Assignment
+#Week 4 Exercises 4: Join
+
 #Q1
  select country.name as "country name", airport.name as "airport name" from country join airport on country.iso_country = airport.iso_country where country.name = 'Finland';
 ![screenshot](Screenshot_week4_q1.png)
