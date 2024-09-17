@@ -17,6 +17,7 @@ select airport.elevation_ft from airport inner join game on airport.ident = game
 
 #Q5
 select airport.elevation_ft * 0.3048 as elevation_m from airport inner join game on airport.ident = game.location where game.screen_name = 'Heini';
+
 ![screenshot](Screenshot_week3_q5.png)
 
 #Q6
