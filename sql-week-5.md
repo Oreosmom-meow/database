@@ -4,11 +4,11 @@ select max(elevation_ft) as "max(elevation_ft)" from airport;
 ![screenshot](Screenshot_week5_e6_q1.png)
 
 #Q2
-select continent, count(*) from airport group by continent;
+``select continent, count(*) from airport group by continent;``
 ![screenshot](Screenshot_week5_e6_q2.png)
 
 #Q3
-select g.screen_name, count(*) from game as g join goal_reached as gr on g.id = gr.game_id group by g.screen_name;
+``select g.screen_name, count(*) from game as g join goal_reached as gr on g.id = gr.game_id group by g.screen_name;``
 ![screenshot](Screenshot_week5_e6_q3.png)
 
 #Q4
